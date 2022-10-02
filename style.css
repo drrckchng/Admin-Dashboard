@@ -13,6 +13,12 @@
         "sidebar main-content";
 }
 
+.header,
+.sidebar,
+.main-content {
+    border: solid 1px black;
+}
+
 .header {
     grid-area: header;
     display: grid;
