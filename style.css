@@ -28,7 +28,12 @@ body {
 
 .sidebar {
     background-color: rgb(58, 140, 247);
+    color: white;
     grid-area: sidebar;
+}
+
+.sidebar ul{
+    list-style: none;
 }
 
 .main-content {
