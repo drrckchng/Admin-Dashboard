@@ -30,8 +30,6 @@ body {
     background-color: rgb(58, 140, 247);
     color: white;
     grid-area: sidebar;
-    display: flex;
-    flex-direction: column;
     padding: 10px 20px 10px 20px;
 }
 
