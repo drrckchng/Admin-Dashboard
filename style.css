@@ -34,10 +34,17 @@ body {
     flex-direction: column;
 }
 
-.sidebar img {
-    display: inline-block;
-    fill: white;
+li img,
+.sidebar-title img {
+    width: 30px;
+    filter: invert(99%) sepia(1%) saturate(79%) hue-rotate(246deg) brightness(117%) contrast(100%);
+    padding-right: 10px;
 }
+
+.sidebar-title img {
+    width: 40px;
+}
+
 
 .sidebar-title {
     font-size: 24px;
@@ -46,7 +53,9 @@ body {
 .sidebar-title,
 ul li {
     display: grid;
-    grid-template-columns: auto 200px;
+    grid-template-columns: 40px 1fr;
+    justify-content: left;
+    align-items: center;
 }
 
 .sidebar ul{
