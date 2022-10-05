@@ -32,6 +32,7 @@ body {
     grid-area: sidebar;
     display: flex;
     flex-direction: column;
+    padding: 10px 20px 10px 20px;
 }
 
 li img,
@@ -54,7 +55,6 @@ li img,
 ul li {
     display: grid;
     grid-template-columns: 40px 1fr;
-    justify-content: left;
     align-items: center;
 }
 
