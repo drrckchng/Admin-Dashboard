@@ -30,6 +30,23 @@ body {
     background-color: rgb(58, 140, 247);
     color: white;
     grid-area: sidebar;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar img {
+    display: inline-block;
+    fill: white;
+}
+
+.sidebar-title {
+    font-size: 24px;
+}
+
+.sidebar-title,
+ul li {
+    display: grid;
+    grid-template-columns: auto 200px;
 }
 
 .sidebar ul{
