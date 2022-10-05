@@ -12,7 +12,6 @@ body {
 .wrapper {
     text-align: center;
     display: grid;
-    /*71px*/
     grid-template-columns: minmax(71px, 256px) minmax(800px, 1fr);
     grid-template-rows: 170px 1fr;
     grid-template-areas: 
