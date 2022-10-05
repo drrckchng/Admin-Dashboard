@@ -36,6 +36,11 @@ body {
     list-style: none;
 }
 
+li a {
+    color: white;
+    text-decoration: none;
+}
+
 .main-content {
     grid-area: main-content;
     background-color: rgb(204, 204, 204);
