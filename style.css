@@ -29,7 +29,7 @@ body {
     background-color: rgb(58, 140, 247);
     color: white;
     grid-area: sidebar;
-    padding: 10px 20px 10px 10px;
+    padding: 14px 20px 10px 10px;
 }
 
 .sidebar-title {
