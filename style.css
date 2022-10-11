@@ -20,6 +20,15 @@ body {
     height: 100vh;
 }
 
+img {
+    width: 20px;
+}
+
+img.profile-picture {
+    width: 35px;
+    border-radius: 50%;
+}
+
 .header {
     grid-area: header;
     display: grid;
