@@ -170,8 +170,9 @@ li:nth-child(6) {
 
 .section-title {
     text-align: left;
-    font-size: 14px;
-    font-weight: bold;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 10px;
 }
 
 .projects-wrapper {
@@ -191,8 +192,12 @@ li:nth-child(6) {
 
 .projects .card {
     background-color: white;
-    text-align: center;
-    height: 200px;
+    height: 140px;
+}
+
+/*For all cards (projs, announce, trends)*/
+.card {
+    border-radius: 8px;
 }
 
 .card p {
@@ -202,7 +207,6 @@ li:nth-child(6) {
 
 .card .title {
     font-size: 18px;
-    text-align: center;
 }
 
 .announcements-wrapper {
