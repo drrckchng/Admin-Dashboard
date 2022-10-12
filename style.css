@@ -24,6 +24,7 @@ body {
     grid-area: header;
     display: grid;
     grid-template-rows: 70px 100px;
+    padding: 0 40px 0 40px;
 }
 
 .header-top,
@@ -37,7 +38,7 @@ body {
 }
 
 input[type=search] {
-    width: 40%;
+    width: 85%;
     height: 30px;
     border: 0;
     border-radius: 50px;
