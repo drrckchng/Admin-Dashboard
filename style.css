@@ -24,8 +24,15 @@ img {
     width: 20px;
 }
 
-img.profile-picture {
-    width: 35px;
+img.profile.large {
+    width: 50px;
+}
+
+img.profile.small {
+    width: 30px;
+}
+
+img.profile {
     border-radius: 50%;
 }
 
