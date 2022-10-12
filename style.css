@@ -56,6 +56,11 @@ img.profile {
     border-radius: 50%;
 }
 
+.profile-name {
+    font-size: 15px;
+    font-weight: bolder;
+}
+
 .sidebar {
     background-color: rgb(58, 140, 247);
     color: white;
