@@ -56,7 +56,7 @@ img.profile.large {
 }
 
 img.profile.small {
-    width: 30px;
+    width: 38px;
 }
 
 img.profile {
@@ -150,7 +150,7 @@ li:nth-child(6) {
 
 .main-content {
     grid-area: main-content;
-    background-color: rgb(204, 204, 204);
+    background-color: rgb(222, 227, 236);
     padding: 10px;
 }
 
