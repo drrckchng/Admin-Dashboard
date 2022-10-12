@@ -157,11 +157,18 @@ li:nth-child(6) {
 
 .main-content {
     grid-area: main-content;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+        "projects announcements"
+        "projects trending";
     background-color: rgb(222, 227, 236);
     padding: 45px 20px 45px 20px;
 }
 
 .projects {
+    grid-area: projects;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-gap: 15px;
@@ -186,4 +193,12 @@ li:nth-child(6) {
 .card .title {
     font-size: 18px;
     text-align: center;
+}
+
+.announcements {
+    grid-area: announcements;
+}
+
+.trending {
+    grid-area: trending;
 }
