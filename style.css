@@ -192,19 +192,20 @@ li:nth-child(6) {
 
 .projects .card {
     background-color: white;
-    height: 140px;
+    padding: 30px 20px;
 }
 
 .card-content {
     display: grid;
-    grid-template-rows: auto 1fr;
+    grid-template-rows: min-content 1fr;
+    margin-bottom: 20px;
 }
 
 .card-buttons {
     display: grid;
-    grid-template-rows: auto;
     grid-template-columns: 1fr;
     grid-auto-flow: column;
+    grid-gap: 20px;
 }
 
 /*For all cards (projs, announce, trends)*/
@@ -213,8 +214,9 @@ li:nth-child(6) {
 }
 
 .card p:nth-child(1) {
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 700;
+    margin-bottom: 2px;
 }
 
 .card p:nth-child(2) {
