@@ -191,7 +191,7 @@ li:nth-child(6) {
 
 .projects .card {
     background-color: white;
-    padding: 30px 20px;
+    padding: 30px 30px;
 }
 
 .card-content {
@@ -215,7 +215,7 @@ li:nth-child(6) {
 .card p:nth-child(1) {
     font-size: 15px;
     font-weight: 700;
-    margin-bottom: 2px;
+    margin-bottom: 10px;
 }
 
 .card p:nth-child(2) {
