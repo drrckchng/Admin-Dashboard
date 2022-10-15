@@ -190,14 +190,18 @@ li:nth-child(6) {
 }
 
 .projects .card {
+    display: flex;
+    flex-direction: column;
     background-color: white;
     padding: 30px 30px;
+    border-left: 8px solid rgb(255, 85, 85);
 }
 
 .card-content {
     display: grid;
     grid-template-rows: min-content 1fr;
     margin-bottom: 20px;
+    flex: 1;
 }
 
 .card-buttons {
