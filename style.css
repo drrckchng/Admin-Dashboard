@@ -158,7 +158,7 @@ li:nth-child(6) {
 .main-content {
     grid-area: main-content;
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 3fr 1fr;
     grid-template-rows: 1fr 1fr;
     grid-template-areas: 
         "projects announcements"
@@ -194,7 +194,6 @@ li:nth-child(6) {
 .projects .card {
     display: flex;
     flex-direction: column;
-    background-color: white;
     padding: 30px 30px;
     border-left: 8px solid rgb(255, 85, 85);
 }
@@ -214,8 +213,11 @@ li:nth-child(6) {
 }
 
 /*For all cards (projs, announce, trends)*/
-.card {
+.card,
+.announcements,
+.trending {
     border-radius: 8px;
+    background-color: white;
 }
 
 .card p:nth-child(1) {
