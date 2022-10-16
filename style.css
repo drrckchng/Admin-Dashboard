@@ -65,6 +65,8 @@ img.profile.small {
 
 img.profile {
     border-radius: 50%;
+    object-fit: cover;
+    aspect-ratio: 1/1;
 }
 
 .profile-name {
