@@ -261,8 +261,6 @@ li:nth-child(6) {
 }
 
 .announcement-item div:nth-child(2) {
-    text-overflow: ellipsis;
-    overflow: hidden;
     font-weight: 400;
     font-size: 12px;
     color: rgb(112, 112, 112);
@@ -270,6 +268,10 @@ li:nth-child(6) {
 
 .trending-wrapper {
     grid-area: trending;
+}
+
+.trending {
+    padding: 20px;
 }
 
 .trend-item {
@@ -282,16 +284,20 @@ li:nth-child(6) {
         "picture user-project";
     align-items: center;
     justify-items: left;
+    margin-bottom: 15px;
 }
 
 .trend-item img {
     grid-area: picture;
+    margin-right: 12px;
 }
 
 .trend-item .username {
     grid-area: username;
+    font-weight: 500;
 }
 
 .trend-item .user-project {
     grid-area: user-project;
+    color: rgb(112, 112, 112);
 }
