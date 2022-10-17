@@ -245,8 +245,8 @@ li:nth-child(6) {
 }
 
 .announcements .announcement-item:nth-child(2) {
-    border-top: 1px solid rgba(112, 112, 112, 0.5);
-    border-bottom: 1px solid rgb(112, 112, 112, 0.5);
+    border-top: 1px solid rgba(189, 189, 189, 0.6);
+    border-bottom: 1px solid rgb(189, 189, 189, 0.6);
 }
 
 .announcement-item {
